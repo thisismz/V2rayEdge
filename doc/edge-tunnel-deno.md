@@ -1,45 +1,45 @@
 # Deno deploy Install
 
-## 风险提示
+## risk warning
 
-`Deno deploy` 采用 [fair use policy](https://deno.com/deploy/docs/fair-use-policy), 翻译成中文就是`看良心使用`。 违反可能会封号。
+`Deno deploy` adopts [fair use policy](https://deno.com/deploy/docs/fair-use-policy), translated into Chinese is `see conscience use`. Violations may result in banning.
 
-## Fork 本项目到自己 Github 下
+## Fork this project to your own Github
 
 ![fork](./fork.jpg)
 
-**请定期按照 github 的提示，同步 code 到自己的项目**。
+**Please regularly follow the prompts of github to synchronize the code to your own project**.
 ![sync](./sync.jpg)
 
-## 登录 Deno deploy
+## Login Deno deploy
 
-用 Github 账户登录 https://deno.com/deploy
+Log in to https://deno.com/deploy with your Github account
 
-> 相关免费策略，https://deno.com/deploy/pricing
+> Related free policies, https://deno.com/deploy/pricing
 
 ## New Project
 
-请在配置过程中 **记住 UUID**, 并且选择正确的部署入口文件。`apps\deno-vless\src\main.ts`
+Please **remember the UUID** during the configuration process, and select the correct deployment entry file. `apps\deno-vless\src\main.ts`
 ![deno-link](./deno-link.jpg)
 
-### 流程演示
+### Process Demo
 
-> GIF 仅仅是流程演示，具体入口文件，请看上图。
+> The GIF is just a demonstration of the process. For the specific entry file, please see the picture above.
 
 https://raw.githubusercontent.com/zizifn/edgetunnel/main/doc/deno-deploy.gif
 
-如果 UUID 忘记 或者入口文件有变化，也可以在 deno 管理界面修改项目的配置。
+If the UUID is forgotten or the entry file changes, you can also modify the project configuration on the deno management interface.
 
 https://raw.githubusercontent.com/zizifn/edgetunnel/main/doc/deno-deploy2.gif
 
-其他更多配置，比如使用量，请自行探索。
+For other more configurations, such as usage, please explore by yourself.
 
-## 项目地址
+## project address
 
-点击 View 项目会自动打开。一开始返回 `401`.
+Clicking on the View item will automatically open it. Initially returns `401`.
 
-不要慌张, 把你设置的 `UUID` 输入到弹出的用户名或者密码中。
+Don't panic, enter the `UUID` you set into the pop-up username or password.
 
-然后会自动跳转到如下界面。
+Then it will automatically jump to the following interface.
 
 ![index](./index.jpg)
